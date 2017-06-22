@@ -1,0 +1,197 @@
+﻿<!DOCTYPE html>
+<html class="no-js" lang="en"> 
+<head>
+
+   <!--- Basic Page Needs
+   ================================================== -->
+   <meta charset="utf-8">
+	<title>Node Js</title>
+	<meta name="description" content="">  
+	<meta name="author" content="">
+
+	<!-- mobile specific metas
+   ================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+   <!-- CSS
+    ================================================== -->
+   <link rel="stylesheet" href="css/default.css">
+	<link rel="stylesheet" href="css/layout.css">  
+	<link rel="stylesheet" href="css/media-queries.css"> 
+
+   <!-- Script
+   ================================================== -->
+	<script src="js/modernizr.js"></script>
+
+   <!-- Favicons
+	================================================== -->
+	<link rel="shortcut icon" href="favicon.png" >
+
+</head>
+
+<body>
+
+   <!-- Header
+   ================================================== -->
+   <header id="top">
+
+   	<div class="row">
+
+   		<div class="header-content twelve columns">
+
+		      <h1 id="logo-text"><a href="index.html" title="">Node Js.</a></h1>
+               <p id="intro">Server Side Javascript...</p>
+
+			</div>			
+
+	   </div>
+
+	   <nav id="nav-wrap"> 
+
+	   	<a class="mobile-btn" href="#nav-wrap" title="Show navigation">Show Menu</a>
+		   <a class="mobile-btn" href="#" title="Hide navigation">Hide Menu</a>
+
+	   	<div class="row">    		            
+
+			   	<ul id="nav" class="nav">
+			      	<li class="current"><a href="index.html">Home</a></li>
+	               <li><a href="#Prerequisite">Prerequisites</a></li>	
+	               <li><a href="#challenges">Challenges</a></li>     	
+			   	</ul> <!-- end #nav -->			   	 
+
+	   	</div> 
+
+	   </nav> <!-- end #nav-wrap --> 	     
+
+   </header> <!-- Header End -->
+
+   <!-- Content
+   ================================================== -->
+   <div id="content-wrap">
+
+   	<div class="row">
+
+   		<div id="main" class="eight columns">
+
+	   		<article class="entry">
+
+					<header class="entry-header">
+
+						<div class="entry-meta">
+							<ul>
+								<li>June 21, 2017</li>
+							</ul>
+						</div> 
+					 
+					</header> 
+					
+					<div class="entry-content">
+						<p>Node.js is a very powerful JavaScript-based framework/platform built on Google Chrome's JavaScript V8 Engine.  Every function in Node.js is asynchronous. Therefore, everything that would normally block the thread is instead executed in the background. </p>
+					</div> 
+
+				</article> <!-- end entry -->
+
+				<article class="entry">
+	   			
+					<header class="entry-header">
+
+						<h2 class="entry-title" id="Prerequisite">
+                            <a href="#Prerequisite" title="">Prerequisites</a>
+						</h2> 				 
+					
+					</header> 			
+
+					<div class="entry-content">
+						 <ul style="list-style-type:disc">
+                                <li>Node.js is JavaScript, so we need to know Javascript in order to work with Node.js. </li>
+                                <li>Basic understanding of other web technologies such as HTML, JSON, AJAX, etc.</li>
+                                <li>Working Knowledge of Command Line.</li>
+                                <li>Install npm from your command line whenever you start a new node repo.</li>
+                                <li> Text Editors like notepad, Visual Studio Code or Brackets.</li>
+                            </ul>
+					                           
+                     </div> 
+
+				</article> <!-- end entry -->
+
+				<article class="entry">
+	   			
+					<header class="entry-header">
+
+						<h2 class="entry-title" id="challenges">
+							<a href="#challenges" title="">Challenges in Node Js</a>
+						</h2> 				 
+					
+						
+					 
+					</header> 			
+
+					<div class="entry-content">
+                        <ul style="list-style-type:disc">
+                            <li><strong style="color:darkmagenta">NPM</strong></li>
+                            <p>NPM is a dependency management tool. When npm doesn't work you often get incomprehensible errors. For this removal of the <code style="color:darkred; background-color:pink">node_modules</code> folder is suggested followed by an <code style="color:darkred; background-color:pink">npm install</code>.</p>
+                            <p>It's also difficult to know which NPM library is best to use with an option of at least a dozen at your disposal.</p>
+                            <li><strong style="color:darkmagenta">Restarting the server</strong></li>
+                            <p>Everytime a change is made to the server, we have to stop the server and start it again. It's kind of annoying, so to avoid this we can install <code style="color:darkred; background-color:pink">npm i -g nodemon</code> or <code style="color:darkred; background-color:pink">nodemon filename.js</code></p>
+                            <li><strong style="color:darkmagenta">Callback Hell</strong></li>
+                            <p>Large set of nested callbacks are refered as callback hell. By nesting callbacks in such a way, we easily end up with error-prone, hard to read, and hard to maintain code. One workaround is to declare these tasks as small functions, and then link them up or this can be solved using Promises which has seperate callbacks for success and failures.</p>
+                            <li><strong style="color:darkmagenta">Invoking callback more than once</strong></li>
+                            <p>One common Node.js issue related to using callbacks is calling them more than once. Being careful is all it takes to avoid this Node.js error.</p>
+                            <li><strong style="color:darkmagenta">Error Habdling</strong></li> 
+                            <p>Since Node.js is a single threaded model, your code may crash if error is not handled properly or you forget to catch an exception. But you can always keep the app running by spinning up a new app in a new node.js thread.</p>
+                        </ul>
+					</div> 
+
+				</article> <!-- end entry -->  
+
+   		</div> <!-- end main -->
+
+
+   	</div> <!-- end row -->
+
+   </div> <!-- end content-wrap -->
+   
+
+   <!-- Footer
+   ================================================== -->
+   <footer>
+
+      <div class="row"> 
+
+         <div class="six columns info">
+
+            <h3>About Node Js</h3> 
+
+            <p>Nodejs is basically a way to run javascript outside the context of the browser. Powered by V8. We can use node for many things now like tooling and servers.It is used to develop I/O intensive web applications like video streaming sites, single-page applications, and other web applications. Node.js is open source, completely free, and used by thousands of developers around the world. </p>
+
+           </div>
+
+         <div class="two columns">
+            <h3 class="social">Navigate</h3>
+
+            <ul class="navigate group">
+               <li><a href="#">Home</a></li>
+               <li><a href="#Prerequisite">Prerequisites</a></li>
+               <li><a href="#challenges">Challenges</a></li>
+            </ul>
+         </div>
+
+         <p class="copyright">&copy; Copyright 2017. &nbsp; Design by <a title="Styleshout" href="http://www.styleshout.com/">Snigdha Jha</a>.</p>
+        
+      </div> <!-- End row -->
+
+      <div id="go-top"><a class="smoothscroll" title="Back to Top" href="#top"><i class="fa fa-chevron-up"></i></a></div>
+
+   </footer> <!-- End Footer-->
+
+
+   <!-- Java Script
+   ================================================== -->
+   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+   <script>window.jQuery || document.write('<script src="js/jquery-1.10.2.min.js"><\/script>')</script>
+   <script type="text/javascript" src="js/jquery-migrate-1.2.1.min.js"></script>  
+   <script src="js/main.js"></script>
+
+</body>
+
+</html>
