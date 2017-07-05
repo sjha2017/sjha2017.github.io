@@ -55,8 +55,10 @@
 
 			   	<ul id="nav" class="nav">
 			      	<li class="current"><a href="index.html">Home</a></li>
-	               <li><a href="#Prerequisite">Prerequisites</a></li>	
-	               <li><a href="#challenges">Challenges</a></li>     	
+	               <li><a href="#Prerequisite">Prerequisites</a></li>
+                   <li><a href="#getStart">Getting started with Node.js</a></li>	
+	               <li><a href="#challenges">Challenges</a></li>
+                        	
 			   	</ul> <!-- end #nav -->			   	 
 
 	   	</div> 
@@ -71,80 +73,139 @@
 
    	<div class="row">
 
-   		<div id="main" class="eight columns">
+           <div id="main" class="header-content twelve columns">
 
-	   		<article class="entry">
+               <article class="entry">
 
-					<header class="entry-header">
+                   <header class="entry-header">
 
-						<div class="entry-meta">
-							<ul>
-								<li>June 21, 2017</li>
-							</ul>
-						</div> 
-					 
-					</header> 
-					
-					<div class="entry-content">
-						<p>Node.js is a very powerful JavaScript-based framework/platform built on Google Chrome's JavaScript V8 Engine.  Every function in Node.js is asynchronous. Therefore, everything that would normally block the thread is instead executed in the background. </p>
-					</div> 
+                       <div class="entry-meta">
+                           <ul>
+                               <li>June 21, 2017</li>
+                           </ul>
+                       </div>
 
-				</article> <!-- end entry -->
+                   </header>
 
-				<article class="entry">
-	   			
-					<header class="entry-header">
+                   <div class="entry-content">
+                       <p>Node.js is a very powerful JavaScript-based framework/platform built on Google Chrome's JavaScript V8 Engine.  Every function in Node.js is asynchronous. Therefore, everything that would normally block the thread is instead executed in the background. </p>
+                   </div>
 
-						<h2 class="entry-title" id="Prerequisite">
-                            <a href="#Prerequisite" title="">Prerequisites</a>
-						</h2> 				 
-					
-					</header> 			
+               </article> <!-- end entry -->
 
-					<div class="entry-content">
-						 <ul style="list-style-type:disc">
-                                <li>Node.js is JavaScript, so we need to know Javascript in order to work with Node.js. </li>
-                                <li>Basic understanding of other web technologies such as HTML, JSON, AJAX, etc.</li>
-                                <li>Working Knowledge of Command Line.</li>
-                                <li>Install npm from your command line whenever you start a new node repo.</li>
-                                <li> Text Editors like notepad, Visual Studio Code or Brackets.</li>
-                            </ul>
-					                           
-                     </div> 
+               <article class="entry">
 
-				</article> <!-- end entry -->
+                   <header class="entry-header">
 
-				<article class="entry">
-	   			
-					<header class="entry-header">
+                       <h2 class="entry-title" id="Prerequisite">
+                           <a href="#Prerequisite" title="">Prerequisites</a>
+                       </h2>
 
-						<h2 class="entry-title" id="challenges">
-							<a href="#challenges" title="">Challenges in Node Js</a>
-						</h2> 				 
-					
-						
-					 
-					</header> 			
+                   </header>
 
-					<div class="entry-content">
-                        <ul style="list-style-type:disc">
-                            <li><strong style="color:darkmagenta">NPM</strong></li>
-                            <p>NPM is a dependency management tool. When npm doesn't work you often get incomprehensible errors. For this removal of the <code style="color:darkred; background-color:pink">node_modules</code> folder is suggested followed by an <code style="color:darkred; background-color:pink">npm install</code>.</p>
-                            <p>It's also difficult to know which NPM library is best to use with an option of at least a dozen at your disposal.</p>
-                            <li><strong style="color:darkmagenta">Restarting the server</strong></li>
-                            <p>Everytime a change is made to the server, we have to stop the server and start it again. It's kind of annoying, so to avoid this we can install <code style="color:darkred; background-color:pink">npm i -g nodemon</code> or <code style="color:darkred; background-color:pink">nodemon filename.js</code></p>
-                            <li><strong style="color:darkmagenta">Callback Hell</strong></li>
-                            <p>Asynchronous code can lead to a large set of nested callbacks, which are refered as callback hell. By nesting callbacks in such a way, we easily end up with error-prone, hard to read, and hard to maintain code. One workaround is to declare these tasks as small functions, and then link them up or this can be solved using Promises which has seperate callbacks for success and failures.</p>
-                            <li><strong style="color:darkmagenta">Invoking callback more than once</strong></li>
-                            <p>One common Node.js issue related to using callbacks is calling them more than once. Being careful is all it takes to avoid this Node.js error.</p>
-                            <li><strong style="color:darkmagenta">Error Handling</strong></li> 
-                            <p>Since Node.js is a single threaded model, your code may crash if error is not handled properly or you forget to catch an exception. But you can always keep the app running by spinning up a new app in a new node.js thread.</p>
-                        </ul>
-					</div> 
+                   <div class="entry-content">
+                       <ul style="list-style-type:disc">
+                           <li>Node.js is JavaScript, so we need to know Javascript in order to work with Node.js. </li>
+                           <li>Basic understanding of other web technologies such as HTML, JSON, AJAX, etc.</li>
+                           <li>Working Knowledge of Command Line.</li>
+                           <li>Install npm from your command line whenever you start a new node repo.</li>
+                           <li> Text Editors like notepad, Visual Studio Code or Brackets.</li>
+                       </ul>
 
-				</article> <!-- end entry -->  
+                   </div>
 
-   		</div> <!-- end main -->
+               </article> <!-- end entry -->
+
+               <article class="entry">
+
+                   <header class="entry-header">
+
+                       <h2 class="entry-title" id="getStart">
+                           <a href="#getStart" title="">Getting Started with Node.js</a>
+                       </h2>
+
+                   </header>
+                   <br />
+                   <div class="entry-content">
+                       <p>Applications for Node are written in JavaScript. This is why many developers like Node because it's lightweight and you can write your front-end and back-end in the same language. </p>
+                   </div>
+
+                   <div class="entry-content">
+                       <ul style="list-style-type:disc">
+                           <li><strong style="color:chocolate">Environment Setup</strong></li>
+                           <p>To setup environment for Node.js, you need the following two softwares available on your computer, (a) The Node.js binary installables and (b) Text Editor.</p>
+                           <ol type="a">
+                               <li><strong style="color:ThreeDDarkShadow">Installing Node.js</strong></li>
+                               <p>First head over to <code style="color:darkred; background-color:antiquewhite">nodejs.org</code>, we can see the different sections we have access to. We can either click on Download (recommended version).</p>
+                               <img src="images/img1.jpg" /><br /><br />
+                               <p> Or choose from the different prebuilt installer according to your platform. Make sure to select the correct installer for the target platform.</p>
+                               <img src="images/img1.1.jpg" /><br /><br />
+                               <p>Once the installer is downloaded, go ahead and start it. </p>
+                               <p>Use the MSI file and follow the prompts to install the Node.js. By default, the installer uses the Node.js distribution in C:\Program Files\nodejs. The installer should set the C:\Program Files\nodejs\bin directory in window's PATH environment variable. Restart any open command prompts for the change to take effect.</p>
+                               <img src="images/img2.jpg" />
+                               <p>Leave all the defaults options as is and finally hit install. Once it is installed go ahead and hit finish.</p>
+                               <h4>Verify Installation</h4>
+                               <p>Open command prompt or terminal and type node --version. If we see its version number than its confirmed that node is installed.</p>
+                                <img src="images/img7.jpg" /><br /><br />
+                               <li><strong style="color:ThreeDDarkShadow">Installing text editor</strong></li>
+                               <p>This will be used to type our program. Examples of few editors include Windows Notepad, Visual studio Code , Brakets, OS Edit command, Brief, Epsilon, EMACS, and vim or vi.</p>
+                               <p>To install Visual Studio code, go to <a href="https://code.visualstudio.com/" target="_blank">https://code.visualstudio.com/</a> </p>
+                               <img src="images/img8.jpg" />
+                               <p>Once it is downloaded, run the installer (VSCodeSetup-version.exe). This will only take a minute. By default, VS Code is installed under C:\Program Files (x86)\Microsoft VS Code for a 64-bit machine.</p>
+                               <p>The files created with editor are called source files and contain program source code. The source files for Node.js programs are typically named with the extension ".js".</p>
+                            </ol>
+
+                           <li><strong style="color: chocolate">Creating Node.js Application</strong></li>
+                           <ul>
+                               <li><strong style="color: chocolate">Step 1: Import Required Module</strong></li>
+                                <p>We use the <strong>require</strong> directive to load the http module and store the returned HTTP instance into an http variable as follows −</p>
+                                <table style="border:ridge ; background-color:#e0dada ; width:600px"><tr><td><code>var http = require("http");</code></td></tr></table><br />
+                               <li><strong style="color: chocolate">Step 2: Create Server</strong></li>
+                                <p>We call <strong>http.createServer()</strong> method to create a server instance and then we bind it at port 8080 using the <strong>listen</strong> method associated with the server instance.</p>
+                                <p>Pass it a function with parameters request and response to return "Hello World!".</p>
+                                <img src="images/img9.jpg" /><br />
+                               <p>Name the file as <strong>myFirst.js</strong>. To execute the <strong>myFirst.js</strong> press <strong>F5</strong> or type <code style="color:darkred; background-color:antiquewhite">node myFirst.js</code> in command prompt.</p>
+                               <li><strong style="color: chocolate">Step 3:Make a Request to the Node.js Server</strong></li>
+                                <p>Open <a>http://127.0.0.1:8080/</a> or <a>http://localhost:8080/</a> in any browser and observe the following result.</p>
+                               <img src="images/img10.jpg" />
+                               <p>Congratulations, you have your first HTTP server up and running which is responding to all the HTTP requests at port 8080.</p>
+                           </ul>
+                       </ul>
+                   </div>
+
+               </article> <!-- end entry -->
+
+               <article class="entry">
+
+                   <header class="entry-header">
+
+                       <h2 class="entry-title" id="challenges">
+                           <a href="#challenges" title="">Challenges in Node Js</a>
+                       </h2>
+
+
+
+                   </header>
+
+                   <div class="entry-content">
+                       <ul style="list-style-type:disc">
+                           <li><strong style="color:darkmagenta">NPM</strong></li>
+                           <p>NPM is a dependency management tool. When npm doesn't work you often get incomprehensible errors. For this removal of the <code style="color:darkred; background-color:pink">node_modules</code> folder is suggested followed by an <code style="color:darkred; background-color:pink">npm install</code>.</p>
+                           <p>It's also difficult to know which NPM library is best to use with an option of at least a dozen at your disposal.</p>
+                           <li><strong style="color:darkmagenta">Restarting the server</strong></li>
+                           <p>Everytime a change is made to the server, we have to stop the server and start it again. It's kind of annoying, so to avoid this we can install <code style="color:darkred; background-color:pink">npm i -g nodemon</code> or <code style="color:darkred; background-color:pink">nodemon filename.js</code></p>
+                           <li><strong style="color:darkmagenta">Callback Hell</strong></li>
+                           <p>Asynchronous code can lead to a large set of nested callbacks, which are refered as callback hell. By nesting callbacks in such a way, we easily end up with error-prone, hard to read, and hard to maintain code. One workaround is to declare these tasks as small functions, and then link them up or this can be solved using Promises which has seperate callbacks for success and failures.</p>
+                           <li><strong style="color:darkmagenta">Invoking callback more than once</strong></li>
+                           <p>One common Node.js issue related to using callbacks is calling them more than once. Being careful is all it takes to avoid this Node.js error.</p>
+                           <li><strong style="color:darkmagenta">Error Handling</strong></li>
+                           <p>Since Node.js is a single threaded model, your code may crash if error is not handled properly or you forget to catch an exception. But you can always keep the app running by spinning up a new app in a new node.js thread.</p>
+                       </ul>
+                   </div>
+
+               </article> <!-- end entry -->
+
+           </div> <!-- end main -->
 
 
    	</div> <!-- end row -->
